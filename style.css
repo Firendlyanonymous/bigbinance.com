@@ -1,0 +1,31 @@
+
+body {
+  background-color: #0d0d0d;
+  color: #f1c40f;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  padding: 20px;
+}
+.logo {
+  width: 150px;
+  margin: 20px auto;
+}
+.buttons button {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #f39c12;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+}
+@media (max-width: 600px) {
+  .buttons button {
+    width: 80%;
+    font-size: 18px;
+  }
+}
